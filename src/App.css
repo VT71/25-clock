@@ -11,8 +11,43 @@ body {
     margin: 0;
 }
 
+.main-title {
+    font-family: 'Electrolize', sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+}
+
 .length-container {
-    background-color: #f87e62;
-    width: 65%;
-    border: 4px solid #e45e41;
+    color: var(--white);
+    width: 58%;
+    background-color: var(--light-red);
+    border: 4px solid var(--red);
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.length-container > h2 {
+    font-size: 2.6em;
+}
+
+.edit-container > p,
+.fa-solid {
+    font-size: 2.4em;
+    font-weight: bold;
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+.timer-container {
+    width: 18em;
+    background-color: transparent;
+    border: 4px solid var(--black);
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+.timer-value {
+    font-size: 4.5em;
+}
+
+.controls-container {
+    color: var(--light-red);
+    width: 15em;
 }
